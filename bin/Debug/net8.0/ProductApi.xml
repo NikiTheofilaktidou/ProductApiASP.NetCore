@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProductApi</name>
+    </assembly>
+    <members>
+        <member name="M:ProductApi.Controllers.ProductController.GetProducts">
+            <summary>
+            Retrieves a list of products.
+            </summary>
+            <returns>A list of products.</returns>
+        </member>
+        <member name="M:ProductApi.Controllers.ProductController.GetProduct(System.Int32)">
+            <summary>
+            Retrieves details of a specific product by its ID.
+            </summary>
+            <param name="id">The ID of the product to retrieve.</param>
+            <returns>Details of the specified product.</returns>
+        </member>
+        <member name="M:ProductApi.Controllers.ProductController.AddProduct(ProductApi.Models.Product)">
+            <summary>
+            Adds a new product.
+            </summary>
+            <param name="product">The product to add.</param>
+            <returns>The added product.</returns>
+        </member>
+        <member name="M:ProductApi.Controllers.ProductController.UpdateProduct(System.Int32,ProductApi.Models.Product)">
+            <summary>
+            Updates details of a specific product.
+            </summary>
+            <param name="id">The ID of the product to update.</param>
+            <param name="product">The updated details of the product.</param>
+            <returns>The updated product.</returns>
+        </member>
+        <member name="M:ProductApi.Controllers.ProductController.DeleteProduct(System.Int32)">
+            <summary>
+            Deletes a specific product by its ID.
+            </summary>
+            <param name="id">The ID of the product to delete.</param>
+            <returns>No content.</returns>
+        </member>
+    </members>
+</doc>
